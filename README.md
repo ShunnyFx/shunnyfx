@@ -10,12 +10,12 @@ A self-hosted digit trading app built on the Deriv WebSocket API. Supports Match
 
 1. Log in to your Deriv account and go to the [API Token page](https://app.deriv.com/account/api-token) to create a token with the required scopes.
 2. Navigate to [App Registration](https://developers.deriv.com/dashboard/) and register a new application.
-3. Set the **Redirect URI** to the URL where you will host this app (e.g. `http://localhost:3000` for local development).
+3. Set the **Redirect URI** to the URL where you will host this app (e.g. `http://shunnyfx:3000` for local development).
 4. Copy the **App ID** shown after registration — you will need it in the next step.
 
 ## Step 2: Configure `.env.production`
 
-Copy `.env.example` to `.env.production` and fill in your values:
+Copy `.your account details` to `.shunnyfx.site` and fill in your values:
 
 ```bash
 cp .env.example .env.production
@@ -50,7 +50,7 @@ npm install
 npm run dev
 ```
 
-The app is available at `http://localhost:3000`.
+The app is available at `http://shunnyfx:3000`.
 
 ## Step 4: Build for Production
 
